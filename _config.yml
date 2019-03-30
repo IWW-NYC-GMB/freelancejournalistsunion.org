@@ -1,32 +1,26 @@
-title: IWW NYC GMB · Industrial Workers of the World
+title: Freelance Journalists Union · Industrial Workers of the World
 email: organize@wobblycity.org
 baseurl: ""
-url: "https://wobblycity.org"
-description: The latest news and happenings from the NYC Industrial Workers of the World! · An injury to one is an injury to all.
+url: "https://freelancejournalistsunion.org"
+description: Freelance Journalists Union
 
 future: true
 
-paypal: treasurer@wobblycity.org
+paypal: freelancejournalists@iww.org
 
-twitter_username: iwwnyc
-github_username: iwwnyc
-facebook_username: iwwnyc
-instagram_username: iwwnyc
+twitter_username: IWW_FJU
 
 social:
   name: IWW NYC GMB
   links:
-    - https://www.twitter.com/iwwnyc
-    - https://www.facebook.com/iwwnyc
-    - https://instagram.com/iwwnyc
-    - https://github.com/iwwnyc
+    - https://www.twitter.com/IWW_FJU
 
 twitter:
-  username: iwwnyc
+  username: IWW_FJU
   card: summary
 
 facebook:
-  publisher: iwwnyc
+  publisher: IWW_FJU
 
 markdown: kramdown
 
