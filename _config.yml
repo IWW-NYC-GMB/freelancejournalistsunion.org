@@ -8,19 +8,25 @@ future: true
 
 paypal: freelancejournalists@iww.org
 
-twitter_username: IWW_FJU
+twitter_username: iwwnyc
+github_username: iwwnyc
+facebook_username: iwwnyc
+instagram_username: iwwnyc
 
 social:
   name: IWW NYC GMB
   links:
-    - https://www.twitter.com/IWW_FJU
+    - https://www.twitter.com/iwwnyc
+    - https://www.facebook.com/iwwnyc
+    - https://instagram.com/iwwnyc
+    - https://github.com/iwwnyc
 
 twitter:
-  username: IWW_FJU
+  username: iwwnyc
   card: summary
 
 facebook:
-  publisher: IWW_FJU
+  publisher: iwwnyc
 
 markdown: kramdown
 
