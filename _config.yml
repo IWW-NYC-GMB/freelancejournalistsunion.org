@@ -1,5 +1,5 @@
 title: Freelance Journalists Union · Industrial Workers of the World
-email: organize@wobblycity.org
+email: freelancejournalists@iww.org
 baseurl: ""
 url: "https://freelancejournalistsunion.org"
 description: Freelance Journalists Union
@@ -16,10 +16,10 @@ instagram_username: iwwnyc
 social:
   name: IWW NYC GMB
   links:
-    - https://www.twitter.com/iwwnyc
+    - https://www.twitter.com/IWW_FJU
 
 twitter:
-  username: iwwnyc
+  username: IWW_FJU
   card: summary
 
 facebook:
@@ -37,12 +37,6 @@ plugins:
 
 image: /assets/social.png
 logo: /assets/logo.png
-
-collections:
-  events:
-    output: true
-    path: ""
-    permalink: /events/:path/
 
 paginate: 5
 paginate_path: "/news/:num/"
