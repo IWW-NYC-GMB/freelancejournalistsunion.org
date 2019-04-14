@@ -1,11 +1,11 @@
 backend:
  name: github
- repo: IWW-NYC-GMB/wobblycity.org
+ repo: IWW-NYC-GMB/freelancejournalistsunion.org
   
 #backend:
 # name: test-repo
 
-display_url: https://wobblycity.org
+display_url: https://freelancejournalistsunion.org
 
 logo_url: /assets/iww_netlify.png
 
