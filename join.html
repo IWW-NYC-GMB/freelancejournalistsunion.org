@@ -7,10 +7,10 @@ heading: true
 <h3 style="text-align:center;font-weight:700;font-size:25px;"><em>The IWW FJU is a union for all freelance journalists, bloggers, and other writers in the news media. Join us today! You have nothing to lose but your unpaid invoices!</em></h3><br>
 <form action="https://www.paypal.com/cgi-bin/webscr" method="post" class="pp-sub join" onsubmit="setDues()">
 <input type="hidden" name="custom" value="Joined">
-<input type="hidden" name="notify_url" value="https://wobblycity.us16.list-manage.com/subscribe/paypal-ipn?u=b5aacdc67328813578df54304&id=232e15e038">
+<input type="hidden" name="notify_url" value="">
 <input type="hidden" name="reattempt" value="1">
 <input type="hidden" name="no_shipping" value="3">
-<input type="hidden" name="return" value="https://wobblycity.org/thanks-for-joining">
+<input type="hidden" name="return" value="{{site.url}}/thanks-for-joining">
 <input type="hidden" name="image_url" value="{{site.url}}/assets/paypal.png">
 <input type="hidden" name="business" value="{{ site.paypal }}">
 <input type="hidden" name="cmd" value="_xclick-subscriptions">
@@ -46,7 +46,6 @@ heading: true
 </div><br>
 <input type="hidden" name="p3" value="1">
 <input type="hidden" name="t3" value="M">
-
 <div style="display:none;">
 <input type="hidden" name="on1" value="IU"><span style="font-size:2em; font-weight:bold;">Industrial Union<br></span>
 <label class="pp-select"><select name="os1" id="pp-select" onchange="setIU(this)" required>
@@ -57,8 +56,7 @@ heading: true
 <input type="text" maxlength="200" placeholder="Other (optional)" id="other-input">
 </div>
 </div>
-
-</div><br>
+</div>
 <input type="hidden" name="src" value="1">
 <div style="padding:0;justify-content:center;display:flex;">
 <button type="submit" name="submit" class="large" data-initialized="true" onclick="getCost()" ontouchstart="">Join the IWW FJU</button>
