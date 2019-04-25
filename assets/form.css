@@ -39,9 +39,9 @@ div.duesLevels {
 	.pp-sub.dues {
 		height: 611px;
 	}
-	.pp-sub.join {
+/*	.pp-sub.join {
 		height: 1100px;
-	}
+	} */
 }
 
 @media only screen and (max-device-width: 450px) {
