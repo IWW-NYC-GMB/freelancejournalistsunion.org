@@ -11,13 +11,13 @@
 
         <div id="link-nav">
             <a href="{{site.baseurl}}/" class="page-link{% if page.url == '/' %} current{% endif %}">Home</a>
-            <!-- <a href="{{site.baseurl}}/join" class="page-link{% if page.url contains '/join/' %} current{% endif %}">Join</a> -->
+            <a href="{{site.baseurl}}/join" class="page-link{% if page.url contains '/join/' %} current{% endif %}">Join</a>
             <a href="{{site.baseurl}}/contact" class="page-link{% if page.url contains '/contact/' %} current{% endif %}">Contact</a>
           </div>
 
 <select id="select-nav" onchange="navChange ();location = this.value;">
   <option value="{{site.baseurl}}/" {% if page.url == '/' %}selected{% endif %}>Home</option>
-  <!-- <option value="{{site.baseurl}}/join/" {% if page.url contains '/join/' %}selected{% endif %}>Join</option> -->
+  <option value="{{site.baseurl}}/join/" {% if page.url contains '/join/' %}selected{% endif %}>Join</option>
   <option value="{{site.baseurl}}/contact/" {% if page.url contains '/contact/' %}selected{% endif %}>Contact</option>
 </select>
 <span id="current-selection"></span>
