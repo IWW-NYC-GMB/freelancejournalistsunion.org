@@ -23,6 +23,9 @@ twitter:
   username: IWW_FJU
   card: summary
 
+facebook:
+  publisher: IWWFreelanceJournalistsUnion
+
 markdown: kramdown
 
 kramdown:
