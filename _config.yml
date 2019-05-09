@@ -10,21 +10,21 @@ paypal: freelancejournalists@iww.org
 
 twitter_username: IWW_FJU
 instagram_username: freelancejournalistsunion
-facebook_username: IWWFreelanceJournalistsUnion
+facebook_username: IWWFJU
 
 social:
   name: IWW FJU
   links:
     - https://www.twitter.com/IWW_FJU
     - https://instagram.com/freelancejournalistsunion
-    - https://www.facebook.com/IWWFreelanceJournalistsUnion
+    - https://www.facebook.com/IWWFJU
 
 twitter:
   username: IWW_FJU
   card: summary
 
 facebook:
-  publisher: IWWFreelanceJournalistsUnion
+  publisher: IWWFJU
 
 markdown: kramdown
 
