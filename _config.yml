@@ -8,19 +8,19 @@ future: true
 
 paypal: freelancejournalists@iww.org
 
-twitter_username: IWW_FJU
+twitter_username: IWWFJU
 instagram_username: freelancejournalistsunion
 facebook_username: IWWFJU
 
 social:
   name: IWW FJU
   links:
-    - https://www.twitter.com/IWW_FJU
+    - https://www.twitter.com/IWWFJU
     - https://instagram.com/freelancejournalistsunion
     - https://www.facebook.com/IWWFJU
 
 twitter:
-  username: IWW_FJU
+  username: IWWFJU
   card: summary
 
 facebook:
