@@ -13,18 +13,18 @@ instagram_username: freelancejournalistsunion
 facebook_username: IWWFJU
 
 social:
-  name: IWW FJU
+  name: IWW NYC GMB
   links:
-    - https://www.twitter.com/IWWFJU
-    - https://instagram.com/freelancejournalistsunion
-    - https://www.facebook.com/IWWFJU
+    - https://www.twitter.com/iwwfju
+    - https://instagram.com/iwwfju
+    - https://www.facebook.com/iwwfju
 
 twitter:
-  username: IWWFJU
+  username: iwwfju
   card: summary
 
 facebook:
-  publisher: IWWFJU
+  publisher: iwwfju
 
 markdown: kramdown
 
