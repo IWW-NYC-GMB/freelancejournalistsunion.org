@@ -11,6 +11,12 @@ paypal: freelancejournalists@iww.org
 logo: /assets/logo.png
 image: /assets/social.png
 
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: /assets/social.png
+
 twitter_username: IWWFJU
 instagram_username: freelancejournalistsunion
 facebook_username: IWWFJU
