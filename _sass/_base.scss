@@ -323,6 +323,44 @@ body {
   -webkit-tap-highlight-color: transparent;
 }
 
+.testimonial {
+  padding: 10px 20px;
+  font-size: 32px;
+  line-height: 1.5px;
+  quotes: "\201C""\201D""\2018""\2019";
+}
+
+.testimonial::before {
+  display: inline;
+  position: relative
+  top: 30px;
+  left: -10px;
+  heigh: 0px;
+  color: #BBBBBB;
+  font-size: 3em;
+  line-height: 0px;
+  content: open-quote;
+}
+
+.testimonial::after {
+  display: inline;
+  position: relative
+  top: 35px;
+  left: 10px;
+  heigh: 0px;
+  color: #BBBBBB;
+  font-size: 3em;
+  line-height: 0px;
+  content: close-quote;
+}
+
+.testimonial-source {
+  margin: 0px;
+  text-align: right;
+  font-size: 1.5em;
+  font-style: italic;
+}
+
 /**
  * Set `margin-bottom` to maintain vertical rhythm
  */
