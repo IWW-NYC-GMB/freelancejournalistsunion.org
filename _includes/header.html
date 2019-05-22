@@ -1,49 +1,46 @@
 <header class="site-header" role="banner">
 
-<img src="{{site.baseurl}}/assets/logo.png" onclick="window.location.href='{{site.baseurl}}/';" style="cursor:pointer;display:block;margin-top:70px;margin-left:auto;margin-right:auto;width:330px;padding:10px;max-width:93%;" alt="Freelance Journalists Union logo with letters FJU, image of a globe and three stars" id="IWWlogo">
+  <img src="{{site.baseurl}}/assets/logo.png" onclick="window.location.href='{{site.baseurl}}/';" style="cursor:pointer;display:block;margin-top:70px;margin-left:auto;margin-right:auto;width:330px;padding:10px;max-width:93%;" alt="Freelance Journalists Union logo with letters FJU, image of a globe and three stars" id="IWWlogo">
   <p class="titleIWW"><span style="font-weight:400;" class="titleIWWspan">Industrial Workers<span style="font-family:Pinyon Script;text-transform:lowercase;letter-spacing:1.2px;"> of</span> the World</span><br>
-<span style="font-weight:900;" class="titleFJUspan">Freelance Journalists Union</span></p>
+  <span style="font-weight:900;" class="titleFJUspan">Freelance Journalists Union</span></p>
   <div class="wrapper">
     {%- assign default_paths = site.pages | map: "path" -%}
     {%- assign page_paths = site.header_pages | default: default_paths -%}
     {%- if page_paths -%}
-      <nav class="site-nav">
+    <nav class="site-nav">
+      <div id="link-nav">
+        <a href="{{site.baseurl}}/" class="page-link{% if page.url == '/' %} current{% endif %}">Home</a>
+        <a href="{{site.baseurl}}/testimonials" class="page-link{% if page.url contains '/testimonials/' %} current{% endif %}">Testimonials</a>
+        <!--<a href="{{site.baseurl}}/faq" class="page-link{% if page.url contains '/faq/' %} current{% endif %}">FAQ</a>-->
+        <a href="{{site.baseurl}}/join" class="page-link{% if page.url contains '/join/' %} current{% endif %}">Join</a>
+        <a href="{{site.baseurl}}/contact" class="page-link{% if page.url contains '/contact/' %} current{% endif %}">Contact</a>
+        <a href="{{site.baseurl}}/statements" class="page-link{% if page.url contains '/statements/' %} current{% endif %}">Statements</a>
+      </div>
+      <select id="select-nav" onchange="navChange ();location = this.value;">
+        <option value="{{site.baseurl}}/" {% if page.url == '/' %}selected{% endif %}>Home</option>
+        <option value="{{site.baseurl}}/testimonials/" {% if page.url contains '/testimonials/' %}selected{% endif %}>Testimonials</option>
+        <!--<option value="{{site.baseurl}}/faq/" {% if page.url contains '/faq/' %}selected{% endif %}>FAQ</option>-->
+        <option value="{{site.baseurl}}/join/" {% if page.url contains '/join/' %}selected{% endif %}>Join</option>
+        <option value="{{site.baseurl}}/contact/" {% if page.url contains '/contact/' %}selected{% endif %}>Contact</option>
+        <option value="{{site.baseurl}}/statements/" {% if page.url contains '/statements/' %}selected{% endif %}>Statements</option>
+      </select>
+      <span id="current-selection"></span>
+      <script>
+        function navChange () {
+        var select_nav = document.getElementById("select-nav");
+        var select_nav_content = select_nav.options[select_nav.selectedIndex].innerHTML;
+        document.getElementById("current-selection").innerHTML = select_nav_content + "&nbsp;<span style='font-size:12px !important;vertical-align:middle;color:hsl(356, 68%, 41%);'>&#9660;&#xFE0E;</span>";
+        var current_selection_height = document.getElementById("current-selection").offsetHeight;
+        select_nav.style.height = current_selection_height + "px";
+        if (current_selection_height <= 47) {
+          document.getElementById("current-selection").style.paddingLeft = "22px";
+        } else {
+          document.getElementById("current-selection").style.paddingLeft = "0px";
+        }
+        }
+        navChange ();
+      </script>
 
-        <div id="link-nav">
-            <a href="{{site.baseurl}}/" class="page-link{% if page.url == '/' %} current{% endif %}">Home</a>
-            <a href="{{site.baseurl}}/testimonials" class="page-link{% if page.url contains '/testimonials/' %} current{% endif %}">Testimonials</a>
-            <!--<a href="{{site.baseurl}}/faq" class="page-link{% if page.url contains '/faq/' %} current{% endif %}">FAQ</a>-->
-            <a href="{{site.baseurl}}/join" class="page-link{% if page.url contains '/join/' %} current{% endif %}">Join</a>
-            <a href="{{site.baseurl}}/statements" class="page-link{% if page.url contains '/statements/' %} current{% endif %}">Statements</a>
-            <a href="{{site.baseurl}}/contact" class="page-link{% if page.url contains '/contact/' %} current{% endif %}">Contact</a>
-          </div>
-
-<select id="select-nav" onchange="navChange ();location = this.value;">
-  <option value="{{site.baseurl}}/" {% if page.url == '/' %}selected{% endif %}>Home</option>
-  <option value="{{site.baseurl}}/testimonials/" {% if page.url contains '/testimonials/' %}selected{% endif %}>Testimonials</option>
-  <!--<option value="{{site.baseurl}}/faq/" {% if page.url contains '/faq/' %}selected{% endif %}>FAQ</option>-->
-  <option value="{{site.baseurl}}/join/" {% if page.url contains '/join/' %}selected{% endif %}>Join</option>
-  <option value="{{site.baseurl}}/statements/" {% if page.url contains '/statements/' %}selected{% endif %}>Statements</option>
-  <option value="{{site.baseurl}}/contact/" {% if page.url contains '/contact/' %}selected{% endif %}>Contact</option>
-</select>
-<span id="current-selection"></span>
-<script>
-function navChange () {
-  var select_nav = document.getElementById("select-nav");
-  var select_nav_content = select_nav.options[select_nav.selectedIndex].innerHTML;
-  document.getElementById("current-selection").innerHTML = select_nav_content + "&nbsp;<span style='font-size:12px !important;vertical-align:middle;color:hsl(356, 68%, 41%);'>&#9660;&#xFE0E;</span>";
-  var current_selection_height = document.getElementById("current-selection").offsetHeight;
-  select_nav.style.height = current_selection_height + "px";
-  if (current_selection_height <= 47) {
-    document.getElementById("current-selection").style.paddingLeft = "22px";
-  } else {
-    document.getElementById("current-selection").style.paddingLeft = "0px";
-  }
-}
-
-navChange ();
-</script>
-
-      </nav>
+    </nav>
     {%- endif -%}
 </header>
