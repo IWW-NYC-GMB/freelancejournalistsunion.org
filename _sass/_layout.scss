@@ -122,6 +122,14 @@
 /**
  * Posts
  */
+.post {
+  margin-bottom: 100px;
+}
+
+.post:last-child {
+  margin-bottom: 0 !important;
+}
+
 .post-header {
   margin-bottom: 30px;
 }
