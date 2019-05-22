@@ -123,11 +123,10 @@
  * Posts
  */
 .post-iteration {
-  margin-bottom: 100px;
-}
-
-.post-iteration:last-of-type {
-  margin-bottom: 0 !important;
+    margin-bottom: 100px;
+    &:not(:last-child) {
+      margin-bottom: 0;
+  }
 }
 
 .post-header {
