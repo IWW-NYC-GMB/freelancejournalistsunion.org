@@ -7,12 +7,25 @@ heading: true
 <p>The IWW FJU is a relatively new organization, so there are understandably lots of questions about who we are, what we’re doing, and more. Many of these are answered below, but if you find yourself still wanting to learn more, please email us at freelancejournalists@iww.org.</p>
 
 <ol>
-  <li>What is the IWW FJU?
-    <ul>
+  <li><a onclick="showHideIUs(q1, b1)" style="text-decoration:underline;cursor:pointer;">What is the IWW FJU?</a>
+    <ul style="display:none;" id="q1">
       <li style="list-style-type:none;">The Industrial Workers of the World Freelance Journalists Union is a group of freelance journalists, bloggers, writers, photographers, filmmakers, and illustrators in news media from all around the world, organizing to improve our working conditions and assert our rights.</li>
+      <a onclick="showHideIUs(q1, b1)" style="text-decoration:underline;cursor:pointer;" id="b1">Hide</a>
     </ul>
   </li>
 </ol>
+
+<script>
+function showHideIUs(q, b) {
+if (document.getElementById(q).style.display === "none") {
+document.getElementById(q).style.display = "block";
+document.getElementById(b).innerHTML = "Hide"
+} else {
+document.getElementById(b).innerHTML = "Show"
+document.getElementById(q).style.display = "none";
+}
+}
+</script>
 
 <dl>
   <dt>What is the IWW?</dt>
