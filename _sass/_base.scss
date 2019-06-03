@@ -360,6 +360,19 @@ body {
   font-style: italic;
 }
 
+.faq-question {
+  font-size: 28px;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.faq-answer {
+  font-size: 22px;
+  font-weight: 800;
+  padding: 20px 10px 15px;
+  display: none;
+}
+
 /**
  * Set `margin-bottom` to maintain vertical rhythm
  */
