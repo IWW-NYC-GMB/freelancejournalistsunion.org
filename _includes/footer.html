@@ -9,8 +9,17 @@
 <a href="https://iww.org" style="display:block;margin-left:auto;margin-right:auto;height:90px;width:90px;opacity:.85;">
 <img src="{{site.baseurl}}/assets/footer.png">
 </a>
-<p style="text-align:center;text-transform:uppercase;font-size:11px;font-weight:500;letter-spacing:-1px;word-spacing:1px;color:#585858;margin-top:16px;">An injury to one is an injury to all</p>
+<p id="footer_text" style="text-align:center;text-transform:uppercase;font-size:11px;font-weight:500;letter-spacing:-1px;word-spacing:1px;color:#585858;margin-top:16px;"></p>
 </div>
+<script>
+var randomNumber = Math.random();
+
+if (randomNumber <= 0.5) {
+  document.getElementById("footer_text").innerHTML = "An injury to one is an injury to all";
+} else if (randomNumber >= 0.5) {
+  document.getElementById("footer_text").innerHTML = "Labor is entitled to all it produces";
+}
+</script>
 
 </footer>
 
