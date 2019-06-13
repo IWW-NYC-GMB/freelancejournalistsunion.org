@@ -14,9 +14,19 @@
 <script>
 var randomNumber = Math.random();
 
-if (randomNumber <= 0.5) {
+if (randomNumber < 0.25) {
   document.getElementById("footer_text").innerHTML = "An injury to one is an injury to all";
-} else if (randomNumber >= 0.5) {
+} else if (randomNumber > 0.25 && randomNumber < .5) {
+  document.getElementById("footer_text").innerHTML = "Labor is entitled to all it produces";
+} else if (randomNumber > 0.5 && randomNumber < .75) {
+  document.getElementById("footer_text").innerHTML = "Abolish the wage system";
+} else if (randomNumber > 0.75 && randomNumber < 1) {
+  document.getElementById("footer_text").innerHTML = "All power to the workers";
+}
+
+if (randomNumber < 0.5) {
+  document.getElementById("footer_text").innerHTML = "An injury to one is an injury to all";
+} else if (randomNumber > 0.5) {
   document.getElementById("footer_text").innerHTML = "Labor is entitled to all it produces";
 }
 </script>
