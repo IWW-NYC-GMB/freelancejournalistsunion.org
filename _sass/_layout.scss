@@ -165,7 +165,3 @@ ol.decimal-list > li:before {
 li ol.decimal-list > li {
   margin: 0;
 }
-
-li ol.decimal-list > li:before {
-  content: counters(item, ".") ". ";
-}
