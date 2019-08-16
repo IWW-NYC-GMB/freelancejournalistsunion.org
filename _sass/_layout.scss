@@ -167,5 +167,5 @@ li ol.decimal-list > li {
 }
 
 li ol.decimal-list > li:before {
-  content: counters(item, ".") " ";
+  content: counters(item, ".") ". ";
 }
