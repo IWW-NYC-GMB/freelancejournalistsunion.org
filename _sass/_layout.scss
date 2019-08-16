@@ -142,3 +142,30 @@
   margin-right: auto;
   margin-bottom: 30px;
 }
+
+ol.decimal-list {
+  list-style-type: none;
+  counter-reset: item;
+  margin: 0;
+  padding: 0;
+}
+
+ol.decimal-list > li {
+  display: table;
+  counter-increment: item;
+  margin-bottom: 0.6em;
+}
+
+ol.decimal-list > li:before {
+  content: counters(item, ".") ". ";
+  display: table-cell;
+  padding-right: 0.6em;    
+}
+
+li ol.decimal-list > li {
+  margin: 0;
+}
+
+li ol.decimal-list > li:before {
+  content: counters(item, ".") " ";
+}
