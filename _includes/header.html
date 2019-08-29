@@ -11,7 +11,7 @@
         <a href="{{site.baseurl}}/" class="page-link{% if page.url == '/' %} current{% endif %}">Home</a>
         <a href="{{site.baseurl}}/testimonials" class="page-link{% if page.url contains '/testimonials/' %} current{% endif %}">Testimonials</a>
         <div id="dropdown">
-          <a style="cursor:pointer;">About</a>
+          <a style="cursor:pointer;" class="page-link{% if page.url contains '/faq/' or page.url == '/bylaws/' %} current{% endif %}">About</a>
           <div id="dropdown-content">
             <a href="{{site.baseurl}}/faq/" class="page-link{% if page.url == '/faq/' %} current{% endif %}">FAQ</a>
             <a href="{{site.baseurl}}/bylaws/" class="page-link{% if page.url contains '/bylaws/' %} current{% endif %}">Bylaws</a>
