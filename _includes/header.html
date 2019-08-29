@@ -14,6 +14,7 @@
         <a href="{{site.baseurl}}/join" class="page-link{% if page.url contains '/join/' %} current{% endif %}">Join</a>
         <a href="{{site.baseurl}}/contact" class="page-link{% if page.url contains '/contact/' %} current{% endif %}">Contact</a>
         <a href="{{site.baseurl}}/statements" class="page-link{% if page.url contains '/statements/' %} current{% endif %}">Statements</a>
+        <a href="{{site.baseurl}}/bylaws" class="page-link{% if page.url contains '/bylaws/' %} current{% endif %}">Bylaws</a>
       </div>
       <select id="select-nav" onchange="navChange ();location = this.value;">
         <option value="{{site.baseurl}}/" {% if page.url == '/' %}selected{% endif %}>Home</option>
@@ -22,6 +23,7 @@
         <option value="{{site.baseurl}}/join/" {% if page.url contains '/join/' %}selected{% endif %}>Join</option>
         <option value="{{site.baseurl}}/contact/" {% if page.url contains '/contact/' %}selected{% endif %}>Contact</option>
         <option value="{{site.baseurl}}/statements/" {% if page.url contains '/statements/' %}selected{% endif %}>Statements</option>
+        <option value="{{site.baseurl}}/bylaws/" {% if page.url contains '/bylaws/' %}selected{% endif %}>Bylaws</option>
       </select>
       <span id="current-selection"></span>
       <script>
