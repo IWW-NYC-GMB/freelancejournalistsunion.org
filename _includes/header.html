@@ -15,6 +15,7 @@
           <div id="dropdown-content">
             <a href="{{site.baseurl}}/faq/" class="page-link{% if page.url == '/faq/' %} current{% endif %}">FAQ</a>
             <a href="{{site.baseurl}}/bylaws/" class="page-link{% if page.url contains '/bylaws/' %} current{% endif %}">Bylaws</a>
+            <a href="{{site.baseurl}}/intent/" class="page-link{% if page.url contains '/intent/' %} current{% endif %}">Letter of Intent</a>
           </div>
         </div>
         <a href="{{site.baseurl}}/join" class="page-link{% if page.url contains '/join/' %} current{% endif %}">Join</a>
@@ -27,6 +28,7 @@
         <optgroup label="About">About
           <option value="{{site.baseurl}}/faq/" {% if page.url contains '/faq/' %}selected{% endif %}>FAQ</option>
           <option value="{{site.baseurl}}/bylaws/" {% if page.url contains '/bylaws/' %}selected{% endif %}>Bylaws</option>
+          <option value="{{site.baseurl}}/intent/" {% if page.url contains '/intent/' %}selected{% endif %}>Leter of Intent</option>
         </optgroup>
         <option value="{{site.baseurl}}/join/" {% if page.url contains '/join/' %}selected{% endif %}>Join</option>
         <option value="{{site.baseurl}}/contact/" {% if page.url contains '/contact/' %}selected{% endif %}>Contact</option>
