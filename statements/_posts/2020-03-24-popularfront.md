@@ -1,6 +1,6 @@
 ---
 layout: post
-title: In Solidarity With Popular Front
+title: In solidarity with Popular Front
 date: 2020-03-24T05:00:00.000Z
 permalink: '/:categories/:year/:i_month/:i_day/:slug'
 ---
