@@ -9,7 +9,7 @@
     <nav class="site-nav">
       <div id="link-nav">
         <a href="{{site.baseurl}}/" class="page-link{% if page.url == '/' %} current{% endif %}">Home</a>
-        <a href="{{site.baseurl}}/testimonials" class="page-link{% if page.url contains '/testimonials/' %} current{% endif %}">Testimonials</a>
+        <a href="{{site.baseurl}}/testimonials/" class="page-link{% if page.url contains '/testimonials/' %} current{% endif %}">Testimonials</a>
         <div id="dropdown">
           <a style="cursor:default;" class="page-link{% if page.url contains '/faq/' or page.url == '/bylaws/' %} current{% endif %}">About</a>
           <div id="dropdown-content">
@@ -18,9 +18,9 @@
             <a href="{{site.baseurl}}/loi/" class="page-link{% if page.url contains '/loi/' %} current{% endif %}">Letter of Intent</a>
           </div>
         </div>
-        <!--<a href="{{site.baseurl}}/join" class="page-link{% if page.url contains '/join/' %} current{% endif %}">Join</a>-->
-        <a href="{{site.baseurl}}/contact" class="page-link{% if page.url contains '/contact/' %} current{% endif %}">Contact</a>
-        <a href="{{site.baseurl}}/statements" class="page-link{% if page.url contains '/statements/' %} current{% endif %}">Statements</a>
+        <a href="https://iww.org/membership/" class="page-link">Join</a>
+        <a href="{{site.baseurl}}/contact/" class="page-link{% if page.url contains '/contact/' %} current{% endif %}">Contact</a>
+        <a href="{{site.baseurl}}/statements/" class="page-link{% if page.url contains '/statements/' %} current{% endif %}">Statements</a>
       </div>
       <select id="select-nav" onchange="navChange ();location = this.value;">
         <option value="{{site.baseurl}}/" {% if page.url == '/' %}selected{% endif %}>Home</option>
@@ -30,7 +30,7 @@
           <option value="{{site.baseurl}}/bylaws/" {% if page.url contains '/bylaws/' %}selected{% endif %}>Bylaws</option>
           <option value="{{site.baseurl}}/loi/" {% if page.url contains '/loi/' %}selected{% endif %}>Leter of Intent</option>
         </optgroup>
-        <!--<option value="{{site.baseurl}}/join/" {% if page.url contains '/join/' %}selected{% endif %}>Join</option>-->
+        <option value="https://iww.org/membership/">Join</option>
         <option value="{{site.baseurl}}/contact/" {% if page.url contains '/contact/' %}selected{% endif %}>Contact</option>
         <option value="{{site.baseurl}}/statements/" {% if page.url contains '/statements/' %}selected{% endif %}>Statements</option>
       </select>
