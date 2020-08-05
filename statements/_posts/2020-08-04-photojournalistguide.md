@@ -10,4 +10,4 @@ permalink: '/:categories/:year/:i_month/:i_day/:slug'
 4. If you accidentally capture comrades on film, obscure their faces, tattoos, and all other identifying characteristics before publishing. Minimize the need for this by focusing on comrades’ legs and backs, if they are in the frame at all.
 5. Lock your devices with alpha-numeric passcodes. Law enforcement may be able to force you to unlock devices with your face or fingerprint.
 6. While it may be valuable to film police violence, that footage does not necessarily need to be published immediately. Make the safety of comrades your priority.
-7. Do not voluntarily give up footage to law enforcement. Ask them for a subpoena, then contact us at [freelancejournalists@iww.org](freelancejournalists@iww.org).
+7. Do not voluntarily give up footage to law enforcement. Ask them for a subpoena, then contact us at [freelancejournalists@iww.org](mailto:freelancejournalists@iww.org).
