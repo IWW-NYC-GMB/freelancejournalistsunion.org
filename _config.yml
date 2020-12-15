@@ -34,6 +34,8 @@ twitter:
 facebook:
   publisher: iwwfju
 
+cloudflare-web-analytics-token: 16aa4822492b4e61be2a829974c1455c
+
 markdown: kramdown
 
 kramdown:
