@@ -1,8 +1,5 @@
 ---
-layout: post
 title: Strike on June 19 in support of Black Lives Matter
-date: 2020-06-12T09:00:00.000Z
-permalink: '/:categories/:year/:i_month/:i_day/:slug'
 ---
 Industrial Workers of the World Freelance Journalists Union members in the United States have collectively agreed to strike on June 19, also known as Juneteenth, an annual holiday commemorating the freeing of enslaved Black people at the end of the US Civil War.
 

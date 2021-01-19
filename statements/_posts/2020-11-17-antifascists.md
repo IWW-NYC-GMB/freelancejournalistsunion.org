@@ -1,8 +1,5 @@
 ---
-layout: post
 title: Support your local anti-fascists
-date: 2020-11-17T09:00:00.000Z
-permalink: '/:categories/:year/:i_month/:i_day/:slug'
 ---
 In light of Donald Trump’s failed re-election campaign, the assortment of fascists that he has drawn support from — such as the Proud Boys, Oath Keepers, American Guard, and Patriot Prayer — continue terrorizing their opponents with new desperation. While some critics believe that Trump’s electoral defeat signals the end of the fascist threat, the violence perpetrated against residents and visitors in Washington D.C. this past weekend illustrates the danger of conceding the streets to forces of nationalist violence and virulent bigotry.
 

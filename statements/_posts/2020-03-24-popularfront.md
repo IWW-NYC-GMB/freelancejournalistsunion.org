@@ -1,8 +1,5 @@
 ---
-layout: post
 title: In solidarity with Popular Front
-date: 2020-03-24T05:00:00.000Z
-permalink: '/:categories/:year/:i_month/:i_day/:slug'
 ---
 Popular Front was created in 2018 by freelance journalist Jake Hanrahan with the mission to bring independent, grassroots conflict journalism to the world. Originally a [podcast](https://www.popularfront.co/podcast), Popular Front has evolved to include documentary videos, printed articles, news dispatches, and a community Discord to shed light on current wars and military conflicts. [@PopularFrontCO](https://twitter.com/PopularFrontCO) takes no money from corporate sponsors and is funded by the growing community of supporters Jake has built in the past couple of years.
 

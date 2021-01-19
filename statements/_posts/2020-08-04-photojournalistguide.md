@@ -1,8 +1,5 @@
 ---
-layout: post
 title: To journalists covering the ongoing uprisings
-date: 2020-08-04T09:00:00.000Z
-permalink: '/:categories/:year/:i_month/:i_day/:slug'
 ---
 1. If a comrade asks you to stop filming them, stop filming them. Generally speaking, our cameras should be trained on law enforcement and reactionaries, not to unintentionally incriminate comrades.
 2. Be cognizant of where and when is an appropriate time to livestream. Law enforcement can watch livestreams for real-time information, and you may be unwittingly helping them repress comrades.
