@@ -20,7 +20,7 @@ defaults:
       type: "posts"
     values:
        layout: "post"
-    permalink: "/:categories/:year/:i_month/:i_day/:slug"
+    permalink: /:categories/:year/:i_month/:i_day/:slug
 
 twitter_username: IWWFJU
 instagram_username: freelancejournalistsunion
@@ -42,11 +42,11 @@ facebook:
 
 cloudflare_web_analytics_token: 16aa4822492b4e61be2a829974c1455c
 
-#markdown: kramdown
+markdown: kramdown
 
-#kramdown:
-#  parse_span_html: true
-#  input: GFM
+kramdown:
+  parse_span_html: true
+  input: GFM
 
 plugins:
   - jekyll-paginate
