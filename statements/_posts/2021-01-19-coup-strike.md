@@ -1,8 +1,5 @@
 ---
-layout: post
 title: In Event of Coup, General Strike on January 20
-date: 2021-01-19T09:00:00.000Z
-permalink: '/:categories/:year/:i_month/:i_day/:slug'
 ---
 Industrial Workers of the World Freelance Journalists Union members in the United States have collectively agreed to strike on Inauguration Day, January 20, should Donald Trump and his supporters attempt to overturn his electoral defeat in the race for US President. Our hope is that by anticipating the worst, we are better prepared to get directly involved in and/or provide support to anti-coup efforts in Washington DC and our own local areas.
 
