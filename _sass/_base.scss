@@ -247,6 +247,7 @@ hr {
   width: 50px;
   height: 50px;
   fill: #000000;
+  transform: translateZ(0);
 }
 
 .social-icons:hover > a {
@@ -400,6 +401,10 @@ ul, ol, dl, figure,
  */
 main {
   display: block; /* Default value of `display` of `main` element is 'inline' in IE 11. */
+
+  p {
+    margin-bottom: 30px;
+  }
 }
 
 /**
