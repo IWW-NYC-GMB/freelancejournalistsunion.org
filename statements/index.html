@@ -11,11 +11,7 @@ heading: true
 		<p class="meta">{{ post.date | date: "%B %-d, %Y" }}</p>
   </span><br>
 		<div class="entry">
-			{% if post.netlify == true %}
-				{{ post.content | newline_to_br | newline_to_br | replace: "<h2", "<h3" | replace: "</h2>", "</h3>" | replace: "</h3><br /><br />", "</h3>" | replace: "</p><br /><br />", "</p><br />" }}
-			{% else %}
 				{{ post.content }}
-			{% endif %}
 		</div>
 	</div>
   {% endif %}

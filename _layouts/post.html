@@ -15,11 +15,7 @@ layout: default
   </header></br>
 
   <div>
-  {% if page.netlify == true %}
-    {{ content | newline_to_br | newline_to_br | replace: "<h2", "<h3" | replace: "</h2>", "</h3>" | replace: "</h3><br /><br />", "</h3>" | replace: "</p><br /><br />", "</p><br />" }}
-  {% else %}
     {{ content }}
-  {% endif %}
   </div>
 
 </article>

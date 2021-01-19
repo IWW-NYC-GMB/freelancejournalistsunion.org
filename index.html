@@ -15,14 +15,3 @@ In order to change these conditions, and to gain power through solidarity, we cr
 <a href="{{ site.baseurl }}/join"><button class="large" style="display:none;" ontouchstart="">Join today!</button></a>
 </div>
 </div>
-<script>
-  if (window.netlifyIdentity) {
-    window.netlifyIdentity.on("init", user => {
-      if (!user) {
-        window.netlifyIdentity.on("login", () => {
-          document.location.href = "/admin/";
-        });
-      }
-    });
-  }
-</script>
