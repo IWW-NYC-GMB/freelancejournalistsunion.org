@@ -15,6 +15,12 @@ defaults:
       path: ""
     values:
       image: /assets/social.png
+  - scope:
+      path: "statements"
+      type: "posts"
+    values:
+       layout: "post"
+    permalink: "/:categories/:year/:i_month/:i_day/:slug"
 
 twitter_username: IWWFJU
 instagram_username: freelancejournalistsunion
