@@ -6,6 +6,6 @@ heading: true
 ---
 <div style="width:85%;margin-right:auto;margin-left:auto;">
 <p>
-You can reach us at <a href="mailto:freelancejournalists@iww.org"><strong>freelancejournalists@iww.org</strong></a> or on <a href="https://twitter.com/{{ site.social_media_accounts | map: "twitter" | cgi_escape | escape }}" tagret="_blank">Twitter</a>, <a href="https://facebook.com/{{ site.social_media_accounts | map: "facebook" | cgi_escape | escape }}" tagret="_blank">Facebook</a>, or <a href="https://instagram.com/{{ site.social_media_accounts | map: "instagram" | cgi_escape | escape }}" tagret="_blank">Instagram</a>.
+You can reach us at <a href="mailto:freelancejournalists@iww.org"><strong>freelancejournalists@iww.org</strong></a> or on <a href="https://twitter.com/{{ site.social_media_accounts | map: "twitter" | compact | first | cgi_escape | escape }}" tagret="_blank">Twitter</a>, <a href="https://facebook.com/{{ site.social_media_accounts | map: "facebook" | compact | first | cgi_escape | escape }}" tagret="_blank">Facebook</a>, or <a href="https://instagram.com/{{ site.social_media_accounts | map: "instagram" | compact | first | cgi_escape | escape }}" tagret="_blank">Instagram</a>.
 </p>
 </div>
