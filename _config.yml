@@ -24,7 +24,7 @@ defaults:
       layout: "post"
       permalink: "/:categories/:year/:i_month/:i_day/:slug"
 
-social_icons:
+social_media_accounts:
   - twitter: IWWFJU
   - instagram: freelancejournalistsunion
   - facebook: IWWFJU
